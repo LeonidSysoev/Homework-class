@@ -1,7 +1,7 @@
 package lesson1;
 
 public class Author {
-   public String author;
+   private String author;
 
     public Author(String author) {
         this.author = author;
