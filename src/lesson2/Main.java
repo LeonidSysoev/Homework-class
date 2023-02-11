@@ -1,13 +1,12 @@
 package lesson2;
 
-import lesson1.Author;
-import lesson1.Book;
+
 
 public class Main {
     public static void main(String[] args) {
         Author tolstoy = new Author("Лев Толстой");
         System.out.println("tolstoy.getAuthor() = " + tolstoy.getAuthor());
-        Author pushkin = new Author("Лев Толстой");
+        Author pushkin = new Author("Александр Пушкин");
         System.out.println("pushkin.getAuthor() = " + pushkin.getAuthor());
         Book wordAndPeace = new Book("Война и мир", tolstoy, 1865);
         System.out.println("wordAndPeace.getPublicationYear() = " + wordAndPeace.getPublicationYear());
